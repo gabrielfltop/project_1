@@ -1,0 +1,143 @@
+body {
+	background-color: #F3F5F7;
+	font-family: 'Lexend Deca';
+}
+
+.cabecalhoPrincipal {
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoPrincipal .container {
+    width: 62.5%;
+    height: 168px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal .container .textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalhoPrincipal .container h1 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.cabecalhoPrincipal .container .barraPesquisar {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalhoPrincipal .container .barraPesquisar img {
+    margin: auto 1.9%;
+}
+
+.cabecalhoPrincipal .container .barraPesquisar input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #FFFFFF;
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.corpoPrincipal .container {
+    width: 62.5%;
+    margin: 75px auto;
+}
+
+.corpoPrincipal .container .post {
+    width: 100% - 25px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+}
+
+.corpoPrincipal .container .post .topo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.corpoPrincipal .container .post .topo .data {
+    font-weight: 400;
+    font-size: 14px;
+    color: #717171;
+}
+
+.corpoPrincipal .container .post .título {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 16px 0;
+    color: #1A202C;
+}
+
+.corpoPrincipal .container .post .texto {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #717171;
+}
+
+@media(max-width: 768px) {
+    .cabecalhoPrincipal {
+        height: 200px;
+    }
+
+    .cabecalhoPrincipal .container {
+        width: 90.3%;
+        height: 104px;
+    }
+
+    .cabecalhoPrincipal .container .textos h1 {
+        font-size: 18px;
+    }
+
+    .cabecalhoPrincipal .container .barraPesquisar {
+        height: 40px;
+    }
+
+    .corpoPrincipal .container {
+        width: 90.3%;
+        margin: 37.5px auto;
+    }
+
+    .corpoPrincipal .container .post {
+        width: 100% - 12.5px;
+        margin: 12.5px auto;
+        padding: 15px;
+    }
+
+    .corpoPrincipal .container .post .topo .data {
+        font-size: 14px;
+    }
+
+    .corpoPrincipal .container .post .título {
+        font-size: 21px;
+        line-height: 22px;
+        margin: 16px 0;
+    }
+
+    .corpoPrincipal .container .post .texto {
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
